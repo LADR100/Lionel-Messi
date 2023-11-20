@@ -1,0 +1,137 @@
+html {
+    scroll-behavior: smooth;    
+}
+
+body {
+    background-color: #ffc0cb; 
+    color: #000000; 
+    font-family: 'Ubuntu', sans-serif; 
+}
+
+.navbar {
+    background-color: #e66c80 !important; 
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+    color: #000000 !important; 
+}
+
+.navbar-nav .nav-link:hover {
+    color: #4d4d4d !important; 
+}
+
+.hero-section {
+    background: #ff91a4; 
+    padding: 40px 0;
+    color: #000000; 
+}
+
+.content-section {
+    padding: 20px 0;
+    background-color: #ffc0cb; 
+    color: #000000; 
+}
+
+footer {
+    background-color: #ff91a4; 
+    color: #000000; 
+    padding: 20px 0;
+}
+
+h1, h2 {
+    color: #000000; 
+}
+
+.btn-primary {
+    background-color: #ff729f; 
+    border-color: #ff729f; 
+    color: #000000; 
+}
+
+.btn-primary:hover {
+    background-color: #ff638e; 
+    border-color: #ff638e; 
+    color: #000000; 
+}
+
+#descripcion p, #origenes p, #inter p, #argentina p {
+    text-align: justify;
+}
+
+.text-center {
+    text-align: center; 
+}
+
+.image-container img {
+    display: block; 
+    margin: 0 auto; 
+    max-width: 50%; 
+    height: auto; 
+}
+
+.social-icons {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    color: #000000; 
+}
+
+.social-icons a:hover, .social-icons a:focus {
+    text-decoration: none; 
+    color: #4d4d4d; 
+}
+
+footer p {
+    margin-bottom: 0.5rem; 
+}
+
+footer .social-icons {
+    margin-top: 0.5rem; 
+}
+
+footer .social-icons a {
+    text-decoration: none; 
+    color: #000000; 
+    font-size: 24px; 
+}
+
+footer p:last-of-type {
+    margin-bottom: 0; 
+}
+
+#contactos input[type="text"],
+#contactos input[type="email"],
+#contactos textarea {
+    width: 35%; 
+    padding: 10px; 
+    margin-bottom: 15px; 
+    background-color: #ffe4e6; 
+    color: #000000; 
+    border: 1px solid #ff91a4; 
+}
+
+#contactos textarea {
+    height: 150px; 
+}
+
+#contactos input[type="submit"], #contactos button {
+    background-color: #ff729f; 
+    color: #000000; 
+    border: none; 
+    padding: 10px 12px; 
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
+    font-weight: bold; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+    margin-right: 5px; 
+}
+
+#contactos input[type="submit"]:hover, #contactos button:hover {
+    background-color: #ff638e; 
+    color: #000000;
+}
